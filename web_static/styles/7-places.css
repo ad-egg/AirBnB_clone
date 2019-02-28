@@ -5,6 +5,7 @@
 .fakeplaces {
     display:flex;
     justify-content:center;
+    flex-wrap:wrap;
 }
 .fakeplaces article {
     width:390px;
