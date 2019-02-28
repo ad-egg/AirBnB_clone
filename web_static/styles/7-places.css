@@ -1,21 +1,19 @@
-.place {
-    max-width:1000px;
-    display:flex;
-    flex-wrap:wrap;
-    justify-content:center;
-}
 .places h1 {
     text-align:left;
     font-size:30px;
 }
-.places article {
+.fakeplaces {
+    display:flex;
+    justify-content:center;
+}
+.fakeplaces article {
     width:390px;
     margin:20px;
     padding:20px;
     border:1px solid #FF545F;
     border-radius:4px;
 }
-.places article h2 {
+.fakeplaces article h2 {
     font-size:30px;
     text-align:center;
 }
