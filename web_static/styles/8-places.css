@@ -37,6 +37,8 @@
 .information {
     height:80px;
     align-items:center;
+    border-top:1px solid #DDDDDD;
+    border-bottom:1px solid #DDDDDD;
 }
 .max_guest {
     background-image:url("images/icon_group.png");
