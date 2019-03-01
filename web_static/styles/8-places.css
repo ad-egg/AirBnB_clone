@@ -44,6 +44,8 @@
     border-bottom:1px solid #DDDDDD;
     padding-left:45px;
     padding-right:45px;
+    padding-top:10px;
+    padding-bottom:10px;
 }
 .max_guest {
     background-image:url("images/icon_group.png");
@@ -61,7 +63,7 @@
     width:100px;
 }
 .max_guest p, .number_rooms p, .number_bathrooms p {
-    padding-top:50px;
+    padding-top:42px;
 }
 .user {
 
