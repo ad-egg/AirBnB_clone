@@ -15,11 +15,20 @@
     border-radius:4px;
 }
 .fakeplaces article h2 {
+    margin-top:-5px;
     font-size:30px;
     text-align:center;
 }
 .price_by_night {
-
+    color:#FF545F;
+    min-width:60px;
+    height:60px;
+    font-size:30px;
+    margin-top:-60px;
+    padding:10px;
+    float:right;
+    border:4px solid #FF545F;
+    border-radius:50%;
 }
 .information {
 
