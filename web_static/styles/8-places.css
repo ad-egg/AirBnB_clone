@@ -49,16 +49,19 @@
 }
 .max_guest {
     background-image:url("images/icon_group.png");
+    background-position:center top;
     background-repeat:no-repeat;
     width:100px;
 }
 .number_rooms {
     background-image:url("images/icon_bed.png");
+    background-position:center top;
     background-repeat:no-repeat;
     width:100px;
 }
 .number_bathrooms {
     background-image:url("images/icon_bath.png");
+    background-position:center top;
     background-repeat:no-repeat;
     width:100px;
 }
