@@ -39,11 +39,11 @@
 .amenities:hover .popover {
     display:block
 }
-h3 {
+.locations h3, .amenities h3 {
     font-weight:600;
     line-height:10px;
 }
-h4 {
+.locations h4, .amenities h4 {
     font-weight:400;
     font-size:14px;
     line-height:3px;
