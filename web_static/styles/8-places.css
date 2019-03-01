@@ -17,11 +17,14 @@
     border:1px solid #FF545F;
     border-radius:4px;
 }
-.fakeplaces article h2 {
+.place_name {
     margin-top:-5px;
     padding-top:10px;
     font-size:30px;
     text-align:center;
+    word-wrap:normal;
+    width:75%;
+    height:80px;
 }
 .price_by_night {
     color:#FF545F;
