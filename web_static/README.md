@@ -35,13 +35,13 @@ Layout:
   - font color: `#484848`
   - font size: 14px
   - font family: `Circular,"Helvetica Neue",Helvetica,Arial,sans-serif;`
-  - [icon](LINK HERE) in the browser tab
+  - [icon](https://github.com/ad-egg/AirBnB_clone/blob/master/web_static/images/icon.png) in the browser tab
 - header:
   - color: white
   - height: 70px
   - width: 100%
   - border bottom 1px `#CCCCCC`
-  - [logo](LINK HERE) align on left and center vertically (20px space at the left)
+  - [logo](https://github.com/ad-egg/AirBnB_clone/blob/master/web_static/images/logo.png) align on left and center vertically (20px space at the left)
 - footer:
   - color: white
   - height: 60px
@@ -190,24 +190,24 @@ add more information to a Place `article`:
       - classname: `max_guest`
       - width: 100px
       - fake text
-      - [icon](LINK HERE)
+      - [icon](https://github.com/ad-egg/AirBnB_clone/blob/master/web_static/images/icon_group.png)
     - number of bedrooms:
       - tag: `div`
       - classname: `number_rooms`
       - width: 100px
       - fake text
-      - [icon](LINK HERE)
+      - [icon](https://github.com/ad-egg/AirBnB_clone/blob/master/web_static/images/icon_bed.png)
     - number of bathrooms:
       - tag: `div`
       - classname: `number_bathrooms`
       - width: 100px
       - fake text
-      - [icon](LINK HERE)
+      - [icon](https://github.com/ad-egg/AirBnB_clone/blob/master/web_static/images/icon_bath.png)
   - user section:
     - tag: `div`
     - classname: `user`
     - text `Owner: <fake text>`
-    - `Owner` text is in *bold*
+    - `Owner` text is in **bold**
   - description section:
     - tag: `div`
     - classname: `description`
