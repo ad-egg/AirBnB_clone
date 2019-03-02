@@ -13,11 +13,14 @@
     width:390px;
     display:flex;
     flex-direction:column;
-    align-items:center;
     margin:20px;
     padding:20px;
     border:1px solid #FF545F;
     border-radius:4px;
+}
+.fakeplaces article .place_name {
+    margin-left:auto;
+    margin-right:auto;
 }
 .place_name {
     margin-top:-5px;
@@ -40,7 +43,7 @@
     text-align:center;
     border-radius:50%;
     position:absolute;
-    margin-left:155px;
+    margin-left:310px;
 }
 .information {
     height:80px;
