@@ -96,7 +96,12 @@
     border-bottom:1px solid #DDDDDD;
     padding-bottom:10px;
 }
-.fakeplaces article .amenities ul, .fakeplaces article .reviews ul {
+.fakeplaces article .amenities ul {
+    list-style-type:none;
+    padding-left:0px;
+    line-height:3;
+}
+.fakeplaces article .reviews ul {
     list-style-type:none;
     padding-left:0px;
 }
@@ -110,11 +115,11 @@
     background-image:url("images/icon_wifi.png");
     background-repeat:no-repeat;
     background-position:center left;
-    background-size:45% 180%;
+    background-size:40% 180%;
 }
 .tv {
     background-image:url("images/icon_tv.png");
     background-repeat:no-repeat;
     background-position:center left;
-    background-size:45% 180%;
+    background-size:40% 180%;
 }
