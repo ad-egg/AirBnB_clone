@@ -22,10 +22,6 @@
     margin-left:auto;
     margin-right:auto;
 }
-.fakeplaces article .price_by_night {
-    margin-right:15px;
-    float:right;
-}
 .place_name {
     margin-top:-5px;
     padding-top:10px;
@@ -47,6 +43,7 @@
     text-align:center;
     border-radius:50%;
     position:absolute;
+    margin-left:310px;
 }
 .information {
     height:80px;
