@@ -81,7 +81,10 @@
 }
 .description {
 }
-.fakeplaces article .amenities, .fakeplaces article .reviews {
+.fakeplaces article .amenities {
+    margin-top:40px;
+}
+.fakeplaces article .reviews {
     margin-top:40px;
 }
 .fakeplaces article .amenities h2, .fakeplaces article .reviews h2 {
