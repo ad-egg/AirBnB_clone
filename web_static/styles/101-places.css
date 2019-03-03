@@ -50,19 +50,19 @@
     padding-top:10px;
 }
 .max_guest {
-    background-image:url("images/icon_group.png");
+    background-image:url("../images/icon_group.png");
     background-position:center top;
     background-repeat:no-repeat;
     width:100px;
 }
 .number_rooms {
-    background-image:url("images/icon_bed.png");
+    background-image:url("../images/icon_bed.png");
     background-position:center top;
     background-repeat:no-repeat;
     width:100px;
 }
 .number_bathrooms {
-    background-image:url("images/icon_bath.png");
+    background-image:url("../images/icon_bath.png");
     background-position:center top;
     background-repeat:no-repeat;
     width:100px;
@@ -100,13 +100,13 @@
     font-size:12px;
 }
 .wifi {
-    background-image:url("images/icon_wifi.png");
+    background-image:url("../images/icon_wifi.png");
     background-repeat:no-repeat;
     background-position:left;
     background-size:25px 25px;
 }
 .tv {
-    background-image:url("images/icon_tv.png");
+    background-image:url("../images/icon_tv.png");
     background-repeat:no-repeat;
     background-position:left;
     background-size:25px 25px;
