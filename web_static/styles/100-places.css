@@ -7,29 +7,24 @@
     display:flex;
     justify-content:center;
     flex-wrap:wrap;
-    margin-bottom:100px;
 }
 .fakeplaces article {
     width:390px;
-    display:flex;
-    flex-direction:column;
     margin:20px;
     padding:20px;
     border:1px solid #FF545F;
     border-radius:4px;
-}
-.fakeplaces article .place_name {
-    margin-left:auto;
-    margin-right:auto;
+    display:flex;
+    flex-direction:column;
 }
 .place_name {
-    margin-top:-5px;
-    padding-top:10px;
+    margin-left:auto;
+    margin-right:auto;
     font-size:30px;
     text-align:center;
     word-wrap:normal;
     width:64%;
-    height:36px;
+    min-height:64px;
 }
 .price_by_night {
     color:#FF545F;
@@ -42,20 +37,17 @@
     border:4px solid #FF545F;
     text-align:center;
     border-radius:50%;
-    position:absolute;
     margin-left:310px;
+    position:absolute;
 }
 .information {
     height:80px;
-    margin-top:64px;
-    margin-bottom:20px;
     display:flex;
     border-top:1px solid #DDDDDD;
     border-bottom:1px solid #DDDDDD;
     padding-left:45px;
     padding-right:45px;
     padding-top:10px;
-    padding-bottom:10px;
 }
 .max_guest {
     background-image:url("images/icon_group.png");
@@ -76,34 +68,30 @@
     width:100px;
 }
 .max_guest p, .number_rooms p, .number_bathrooms p {
-    padding-top:42px;
+    padding-top:36px;
     text-align:center;
 }
 .user {
+    margin-top:10px;
+    margin-bottom:5px;
 }
 .description {
 }
-.fakeplaces article .amenities {
-    margin-top:40px;
-    padding-left:0px;
-    width:100%;
-}
-.fakeplaces article .reviews {
+.fakeplaces article .amenities, .fakeplaces article .reviews {
     margin-top:40px;
 }
 .fakeplaces article .amenities h2, .fakeplaces article .reviews h2 {
     font-size:16px;
     border-bottom:1px solid #DDDDDD;
-    padding-bottom:10px;
 }
 .fakeplaces article .amenities ul {
     list-style-type:none;
-    padding-left:0px;
-    line-height:3;
+    margin-left:-40px;
+    line-height:2;
 }
 .fakeplaces article .reviews ul {
     list-style-type:none;
-    padding-left:0px;
+    margin-left:-40px;
 }
 .fakeplaces article .reviews ul h3 {
     font-size:14px;
@@ -114,10 +102,15 @@
 .wifi {
     background-image:url("images/icon_wifi.png");
     background-repeat:no-repeat;
-    background-position:center left;
+    background-position:left;
+    background-size:25px 25px;
 }
 .tv {
     background-image:url("images/icon_tv.png");
     background-repeat:no-repeat;
-    background-position:center left;
+    background-position:left;
+    background-size:25px 25px;
+}
+.wifi span, .tv span {
+    margin-left:30px;
 }

@@ -20,45 +20,40 @@
 .filters button:hover {
     opacity:0.9;
 }
-.locations {
+.filters .locations {
     height:100%;
     width:25%;
     border-right:1px solid #DDDDDD;
-    padding-left:40px;
     float:left;
 }
-.amenities{
+.filters .amenities{
     height:100%;
     width:25%;
-    padding-left:40px;
     float:left;
 }
-.locations:hover .popover {
+.filters .locations:hover .popover, .filters .amenities:hover .popover {
     display:block;
 }
-.amenities:hover .popover {
-    display:block
-}
-.locations h3, .amenities h3 {
+.filters .locations h3, .filters .amenities h3 {
     font-weight:600;
     line-height:10px;
+    margin-left:40px;
 }
-.locations h4, .amenities h4 {
+.filters .locations h4, .filters .amenities h4 {
     font-weight:400;
     font-size:14px;
     line-height:3px;
+    margin-left:40px;
 }
 .popover {
     display:none;
     list-style-type:none;
     background-color:#FAFAFA;
-    width:100%;
     border:1px solid #DDDDDD;
     border-radius:4px;
-    margin-left:-41px;
     line-height:2;
-    padding-top:25px;
-    padding-bottom:25px;
+    padding-top:20px;
+    padding-bottom:20px;
     position:relative;
     z-index:2;
 }
@@ -68,5 +63,4 @@
 }
 .popover ul {
     list-style-type:none;
-    line-height:2;
 }
