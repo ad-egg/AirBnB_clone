@@ -1,4 +1,6 @@
 body {
+    display:flex;
+    flex-direction:column;
     margin:0;
     padding:0;
     color:#484848;
@@ -6,11 +8,13 @@ body {
     font-size:14px;
     font-family:Circular,"Helvetica Neue",Helvetica,Arial,sans-serif;
 }
+main {
+    flex:1;
+}
 .container {
     max-width:1000px;
     margin-top:30px;
     margin-bottom:30px;
     margin-left:auto;
     margin-right:auto;
-    padding-bottom:60px;
 }
