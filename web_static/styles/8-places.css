@@ -37,8 +37,12 @@
     border:4px solid #FF545F;
     text-align:center;
     border-radius:50%;
-    margin-left:310px;
-    position:absolute;
+    justify-self:flex-end;
+    margin-left:auto;
+    margin-right:0px;
+    margin-top:-120px;
+    margin-bottom:20px;
+    position:relative;
 }
 .information {
     height:80px;
